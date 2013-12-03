@@ -11,3 +11,16 @@
  *= require_self
  *= require_tree .
  */
+
+.name1{
+	font-size:40px;
+	font-weight:100;
+}
+
+.name_margin1{
+	margin:0;
+}
+
+p{
+	font-size: 115%;
+}

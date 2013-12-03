@@ -1,1 +1,4 @@
-<h1>This is the Contact me Page</h1>
+<%= render '/name' %>
+<p>You can contact Luis Perez at his email <%= mail_to 'lperez111@gmail.com', 'lperez111@gmail.com', :style => 'color:#00FFFF' %>, or fill out the form below.
+</p>
+<p>Or you can contact through social media <%= link_to 'Twitter', 'https://www.twitter.com/lperez308', :target => 'blank', :style => 'color:#00FFFF' %>, <%= link_to 'LinkedIn', 'http://lnkd.in/buzA95F', :target => 'blank', :style => 'color:#00FFFF' %>, or <%= link_to 'Github', 'https://www.github.com/lperez111', :target => 'blank', :style => 'color:#00FFFF' %></p>
